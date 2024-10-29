@@ -28,6 +28,6 @@ jobs:
     steps:
       - name: Destroy fly.io preview app
         id: destroy
-        uses: iSCJT/fly-destroy-app@1.0.0
+        uses: iSCJT/fly-destroy-app@v1.1
         with:
           name: 'your-app-name-here'
